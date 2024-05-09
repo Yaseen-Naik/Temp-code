@@ -18,7 +18,7 @@ public:
     }
 };
 
-class Derived : public Base {
+class Derived : private Base {
 public:
     
     void operator--() {
